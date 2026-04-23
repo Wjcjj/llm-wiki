@@ -11,5 +11,9 @@ requires-python = ">=3.11"
 authors = [{ name = "llm-wiki contributors" }]
 dependencies = []
 
+[project.optional-dependencies]
+pdf = ["pypdf>=4.0"]
+all = ["pypdf>=4.0"]
+
 [tool.setuptools.packages.find]
 where = ["src"]
